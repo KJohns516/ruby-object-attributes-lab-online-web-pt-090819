@@ -11,3 +11,6 @@ end
 def breed
     @breed
 end 
+
+fido = Dog.new 
+fido.
