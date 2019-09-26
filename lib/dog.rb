@@ -13,4 +13,5 @@ def breed
 end 
 
 fido = Dog.new 
-fido.
+fido.name = "Fido"
+fido
