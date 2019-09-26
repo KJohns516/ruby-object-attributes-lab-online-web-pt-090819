@@ -8,7 +8,13 @@ class Dog
       @this_dogs_name 
     end 
   end 
+  def breed 
+    @this_dogs_breed
+    end 
+  end 
   
   fido = Dog.new 
   fido.name = "Fido"
   puts fido.name
+  fido.breed = "Basset Hound"
+  puts fido.breed
