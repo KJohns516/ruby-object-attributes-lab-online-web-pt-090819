@@ -6,7 +6,13 @@ class Person
       @name_of_person
   end 
 end 
+def job 
+      @job_of_person
+  end 
+end 
 
 beyonce = Person.new 
 beyonce.name = "Beyonce"
 puts beyonce.name 
+beyonce.job = "Entertainer"
+puts beyonce.job 
